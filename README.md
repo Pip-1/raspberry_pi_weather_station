@@ -8,17 +8,17 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 
 ## Setup
 
-### Rasperry Pi
+#### Rasperry Pi
 - used or new
 - i will take a Rasperry Pi Zero W V1.1, but every other Pi will work just as well
 
-### Bosch GY-BME280
+#### Bosch GY-BME280
 - barometric sensor for temperature, humidity and air pressure
-- i have one from AZ-Delivery, but there are different manufacturers using the BME280
+- i got one from AZ-Delivery, but there are different manufacturers using the BME280
 
 - there are different sensors you could use for this task, another option could be DHT11 or DHT22
 
-### Tools and Equipment
+#### Tools and Equipment
 
 - soldering iron is very useful for the connection of the pins from either the sensor or pi to the pcb's
 - i think you can build this without the need of soldering, just need to be a bit creative (hit me up for tips and tricks)
@@ -26,6 +26,6 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 
 ## Process
 
-### Raspberry Pi Setup
+#### Raspberry Pi Setup
 
 Get a Raspi, either new or used from ebay-kleinanzeigen, craigslist or similar second hand sites.
