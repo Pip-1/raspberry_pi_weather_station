@@ -12,6 +12,12 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 - used or new
 - i will take a Rasperry Pi Zero W V1.1, but every other Pi will work just as well
 
+#### SD-Card
+- the storage unit is needed for the image of the OS the Raspberry Pi will run with
+- i got 32 GB, 8 GB will be sufficient enough for most OS, though
+- with a script, you could easily store the weather data in various files on the SD-Card as well
+- keep in mind, that a high number writing processes will shorten the life cycle of your card drastically
+
 #### Bosch GY-BME280
 - barometric sensor for temperature, humidity and air pressure
 - i got one from AZ-Delivery, but there are different manufacturers using the BME280
@@ -28,4 +34,5 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 
 #### Raspberry Pi Setup
 
-Get a Raspi, either new or used from ebay-kleinanzeigen, craigslist or similar second hand sites.
+- get a Raspi, either new or used from ebay-kleinanzeigen, craigslist or similar second hand sites
+- 
