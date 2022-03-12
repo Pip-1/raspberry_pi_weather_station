@@ -26,13 +26,17 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 
 #### Tools and Equipment
 
+#### Soldering Iron
 - soldering iron is very useful for the connection of the pins from either the sensor or pi to the pcb's
 - i think you can build this without the need of soldering, just need to be a bit creative (hit me up for tips and tricks)
-
+  
 
 ## Process
 
 #### Raspberry Pi Setup
 
 - get a Raspi, either new or used from ebay-kleinanzeigen, craigslist or similar second hand sites
-- 
+- i will do a headless setup, meaning i won't have to connect the Pi to any peripherals
+- the OS will be put on the SD-card, after that we will put two files on the SD-Card
+
+[Downloading the Raspberry Pi Imager](https://www.raspberrypi.com/software/)
