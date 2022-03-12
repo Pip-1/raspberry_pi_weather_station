@@ -8,7 +8,7 @@ There are endless possibilities of using a Raspberry Pi as a weather station. I 
 
 ## Setup
 
-### Rasperry Pi Zero W V1.1
+### Rasperry Pi
 - used or new
 - i will take a Rasperry Pi Zero W V1.1, but every other Pi will work just as well
 
