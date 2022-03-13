@@ -58,5 +58,10 @@ There are endless possibilities of using a Raspberry Pi as a weather station. Fe
 yes
 >>> Warning: Permanently added 'raspberrypi,2a02:2454:95ac:1600:b95:6f1f:d2dc:9710' (ECDSA) to the list of known hosts.
 >>> pi@raspberrypi's password:
-**enter password here** hint: default password of the Pi is "raspberry")
+**enter password here** hint: default password of the pi is "raspberry")
+- now you should be connected to the terminal of your pi
+- to update your pi, which probably won't be necessary, you could get permission with '''sudo su-'''
+- update everything with '''apt-get update'''
+- upgrade everything with '''apt-get upgrade'''
+- 
 
