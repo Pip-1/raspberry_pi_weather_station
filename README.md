@@ -41,3 +41,22 @@ There are endless possibilities of using a Raspberry Pi as a weather station. Fe
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **ssh** - this is a simple and **empty** text file, which activates the SSH-Protocoll, so we can remotely controll the Pi later on
 - after the OS is on the card and both files have been added to the folder, we can insert the card it into the Pi, plug it in and let it boot up
 
+**SSH connection**
+- there is different ways of checking, if your Pi logged into your network (accessing router via browser)
+- let's open the terminal and check for the ping:
+''' ping raspberrypi
+>>>Ping wird ausgeführt für raspberrypi.fritz.box [2a02:2454:95ac:1600:b95:6f1f:d2dc:9710] mit 32 Bytes Daten:
+>>>Antwort von 2a02:2454:95ac:1600:b95:6f1f:d2dc:9710: Zeit=73ms
+>>>Antwort von 2a02:2454:95ac:1600:b95:6f1f:d2dc:9710: Zeit=5ms
+'''
+
+- perfect, let's connect:
+''' ssh pi@raspberrypi
+>>> The authenticity of host 'raspberrypi (---)' can't be established.
+>>> ECDSA key fingerprint is ---.
+>>> Are you sure you want to continue connecting (yes/no/[fingerprint])?
+yes
+>>> Warning: Permanently added 'raspberrypi,2a02:2454:95ac:1600:b95:6f1f:d2dc:9710' (ECDSA) to the list of known hosts.
+>>> pi@raspberrypi's password:
+**enter password here** hint: default password of the Pi is "raspberry")
+
