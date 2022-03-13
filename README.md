@@ -1,11 +1,10 @@
 ## Raspberry Pi weather station
 
-This is a little private side project.
-Goal very simple raspberry pi weather station which can be accessed either through a URL, setup via Node-red, while connected to the Wifi.
-Other possibility is a telegram bot which messages you with current meassurements.
+The goal of this project is a very simple raspberry pi weather station. Either it will be accessable from every browser currently logged in
+or it will send periodic weather via a Telegram bot.
+We will see.
 
-There are endless possibilities of using a Raspberry Pi as a weather station. I will use Python
-
+There are endless possibilities of using a Raspberry Pi as a weather station. Feel free to try them all!
 ## Setup
 
 #### Rasperry Pi
