@@ -60,7 +60,7 @@ yes
 >>> pi@raspberrypi's password:
 **enter password here** hint: default password of the pi is "raspberry")
 - now you should be connected to the terminal of your pi
-- to update your pi, which probably won't be necessary, you could get permission with '''sudo su-'''
+- to update your pi, which probably won't be necessary, you could get root permission with '''sudo su-'''
 - update everything with '''apt-get update'''
 - upgrade everything with '''apt-get upgrade'''
 - 
