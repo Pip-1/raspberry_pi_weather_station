@@ -8,7 +8,7 @@ There are endless possibilities of using a Raspberry Pi as a weather station. Fe
 ## Setup
 
 #### Rasperry Pi
-- used or new
+- used or new, i.e.: i got all my Pi's from ebay-Kleinanzeigen for a small buck
 - i will take a Rasperry Pi Zero W V1.1, but every other Pi will work just as well
 
 #### SD-Card
@@ -34,8 +34,10 @@ There are endless possibilities of using a Raspberry Pi as a weather station. Fe
 
 #### Raspberry Pi Setup
 
-- get a Raspi, either new or used from ebay-kleinanzeigen, craigslist or similar second hand sites
-- i will do a headless setup, meaning i won't have to connect the Pi to any peripherals
-- the OS will be put on the SD-card, after that we will put two files on the SD-Card
+- we will do a headless setup, meaning we won't have to connect the Pi to any peripherals other then the power cord
+- the OS will be put on the SD-card with the help of the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+- there is two files in this repository you will need to add, to the SD-cards folder "Boot" (it's just the main folder):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **wpa_supplicant.conf** - this is a simple text file containing the log-in info to the wifi
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **ssh** - this is a simple and **empty** text file, which activates the SSH-Protocoll, so we can remotely controll the Pi later on
+- after the OS is on the card and both files have been added to the folder, we can insert the card it into the Pi, plug it in and let it boot up
 
-[Downloading the Raspberry Pi Imager](https://www.raspberrypi.com/software/)
