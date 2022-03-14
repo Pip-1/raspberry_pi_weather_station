@@ -1,7 +1,6 @@
 ## Raspberry Pi weather station
 
-The goal of this project is a very simple raspberry pi weather station. Either it will be accessable from every browser currently logged in
-or it will send periodic weather via a Telegram bot.
+The goal of this project is a very simple raspberry pi weather station. It will be accessable via a Telegram bot.
 We will see.
 
 There are endless possibilities of using a Raspberry Pi as a weather station. Feel free to try them all!
